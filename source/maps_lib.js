@@ -941,7 +941,7 @@ $.extend(MapsLib, {
         var settings = MapsLib.searchPage;
         if (settings.addressShow)
         {
-            html.push("<label for='search_address'>Adresa:</label>");
+            html.push("<label for='search_address'>U blizini adrese:</label>");
             html.push("<input class='input-block-level' data-clear-btn='true' id='search_address' placeholder='normalno je to centar karte' type='text' />");
         }
         if (settings.distanceFilter.entries.length > 0)
