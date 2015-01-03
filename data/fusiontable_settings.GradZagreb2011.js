@@ -248,10 +248,10 @@ $.extend(MapsLib, {
     defaultMapBounds: {
 
         // Use [latitude, longitude] or address
-        center: "San Francisco, CA",
+        center: "Zagreb, Hrvatska",
 
         // "X miles" or "X meters"
-        radius: "6 miles"
+        radius: "10000 meters"
     },
 
     // Set useNearbyLocation to false if you don't want to get the user's location.
@@ -261,7 +261,7 @@ $.extend(MapsLib, {
         // If true: use nearby location only if we're within default map bounds
         //          otherwise, post boundsExceededMessage (if non-empty) and use mapDefaultCenter.
         onlyWithinDefaultMapBounds: true,
-        boundsExceededMessage:      "Your location is far away from San Francisco.    Defaulting to city limits.",
+        boundsExceededMessage:      "Your location is far away.    Defaulting to city limits.",
 
         // use this zoom radius if starting at nearby location
         nearbyZoomRadius:           "200 meters",
